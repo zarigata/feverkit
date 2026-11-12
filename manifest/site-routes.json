@@ -1,0 +1,61 @@
+{
+  "site": "https://devdailydrops.pages.dev/",
+  "checked_on": "2026-11-12",
+  "routes": [
+    {
+      "path": "/",
+      "status": "read",
+      "summary": "Homepage feed and linked guides"
+    },
+    {
+      "path": "/repos",
+      "status": "read",
+      "summary": "11 GitHub links"
+    },
+    {
+      "path": "/plugins",
+      "status": "read",
+      "summary": "5 Claude plugins"
+    },
+    {
+      "path": "/secure",
+      "status": "homepage-linked",
+      "summary": "Security checklist; details not retrieved"
+    },
+    {
+      "path": "/unmac",
+      "status": "homepage-linked",
+      "summary": "iOS without Mac guide; details not retrieved"
+    },
+    {
+      "path": "/hosting",
+      "status": "homepage-linked",
+      "summary": "Free hosting; details not retrieved"
+    },
+    {
+      "path": "/design",
+      "status": "homepage-linked",
+      "summary": "Design plugins; details not retrieved"
+    },
+    {
+      "path": "/crew",
+      "status": "homepage-linked",
+      "summary": "Agent crew; details not retrieved"
+    },
+    {
+      "path": "/fix",
+      "status": "homepage-linked",
+      "summary": "Compliance pitfalls; details not retrieved"
+    },
+    {
+      "path": "/launch",
+      "status": "user-supplied",
+      "summary": "Page body unverified"
+    },
+    {
+      "path": "/unslop",
+      "status": "user-supplied",
+      "summary": "Page body unverified"
+    }
+  ]
+}
