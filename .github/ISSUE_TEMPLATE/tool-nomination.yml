@@ -1,0 +1,22 @@
+name: Tool nomination
+description: Suggest a tool for the curated catalog
+labels: [enhancement]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: Canonical public GitHub URL
+    validations:
+      required: true
+  - type: textarea
+    id: usecase
+    attributes:
+      label: Specific use case and profile
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: Installation requirements, permissions, maintenance and security concerns
+    validations:
+      required: true
