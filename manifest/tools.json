@@ -1,0 +1,711 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-11-12",
+  "site": "https://devdailydrops.pages.dev/",
+  "tools": [
+    {
+      "id": "omniroute",
+      "name": "OmniRoute",
+      "repo": "cheaper-inference/OmniRoute",
+      "url": "https://github.com/cheaper-inference/OmniRoute",
+      "category": "llm",
+      "profiles": [
+        "ai-agents",
+        "devops"
+      ],
+      "summary": "Route requests between LLM providers and support failover.",
+      "source": "ddd-plugins",
+      "priority": 1,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "ponytail",
+      "name": "Ponytail",
+      "repo": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "category": "skills",
+      "profiles": [
+        "core",
+        "fullstack"
+      ],
+      "summary": "Favor minimal maintainable implementations over complexity.",
+      "source": "ddd-plugins",
+      "priority": 2,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "graphify",
+      "name": "Graphify",
+      "repo": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "category": "context",
+      "profiles": [
+        "core",
+        "ai-agents"
+      ],
+      "summary": "Extract a codebase graph for structural search and agent context.",
+      "source": "ddd-plugins",
+      "priority": 1,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "addy-skills",
+      "name": "Agent Skills (Addy Osmani)",
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "category": "skills",
+      "profiles": [
+        "core",
+        "fullstack",
+        "saas"
+      ],
+      "summary": "Engineering workflow skills for coding agents.",
+      "source": "ddd-plugins",
+      "priority": 1,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "claude-mem",
+      "name": "claude-mem",
+      "repo": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "category": "memory",
+      "profiles": [
+        "ai-agents",
+        "core"
+      ],
+      "summary": "Persist useful coding-session observations; check retention and privacy.",
+      "source": "ddd-plugins",
+      "priority": 1,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "copy4ai",
+      "name": "Copy4AI",
+      "repo": "LeonKohli/copy4ai",
+      "url": "https://github.com/LeonKohli/copy4ai",
+      "category": "context",
+      "profiles": [
+        "core"
+      ],
+      "summary": "Export code excerpts and diffs as AI context; check for secrets.",
+      "source": "ddd-repos",
+      "priority": 3,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "javascript-tetris",
+      "name": "javascript-tetris",
+      "repo": "jakesgordon/javascript-tetris",
+      "url": "https://github.com/jakesgordon/javascript-tetris",
+      "category": "example",
+      "profiles": [
+        "game"
+      ],
+      "summary": "Tiny browser game useful for automation experiments.",
+      "source": "ddd-repos",
+      "priority": 4,
+      "delivery": "reference",
+      "verified_repo": true
+    },
+    {
+      "id": "ai-job-search",
+      "name": "ai-job-search",
+      "repo": "ai-job-search-dev/ai-job-search",
+      "url": "https://github.com/ai-job-search-dev/ai-job-search",
+      "category": "career",
+      "profiles": [
+        "career"
+      ],
+      "summary": "Assist with tailoring engineering applications and interview preparation.",
+      "source": "ddd-repos",
+      "priority": 2,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "boop",
+      "name": "Boop",
+      "repo": "chrisgreg/boop",
+      "url": "https://github.com/chrisgreg/boop",
+      "category": "observability",
+      "profiles": [
+        "devops",
+        "ai-agents"
+      ],
+      "summary": "Self-hosted notification inbox for automation events.",
+      "source": "ddd-repos",
+      "priority": 2,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "autoclip",
+      "name": "AutoClip",
+      "repo": "artbyjazi/autoclip",
+      "url": "https://github.com/artbyjazi/autoclip",
+      "category": "marketing",
+      "profiles": [
+        "marketing"
+      ],
+      "summary": "Offline-first automated editing of long videos into clips.",
+      "source": "ddd-repos",
+      "priority": 3,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "jev-ultrafast",
+      "name": "jev-ultrafast",
+      "repo": "browser-use/jev-ultrafast",
+      "url": "https://github.com/browser-use/jev-ultrafast",
+      "category": "browser",
+      "profiles": [
+        "ai-agents"
+      ],
+      "summary": "Fast browser agent; sandbox and review permissions.",
+      "source": "ddd-repos",
+      "priority": 3,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "laya",
+      "name": "Laya",
+      "repo": "NandhaKishorM/laya",
+      "url": "https://github.com/NandhaKishorM/laya",
+      "category": "llm",
+      "profiles": [
+        "ai-agents"
+      ],
+      "summary": "Lightweight routing and classification for agent decisions.",
+      "source": "ddd-repos",
+      "priority": 3,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "openstock",
+      "name": "OpenStock",
+      "repo": "Open-Dev-Society/OpenStock",
+      "url": "https://github.com/Open-Dev-Society/OpenStock",
+      "category": "example",
+      "profiles": [
+        "saas"
+      ],
+      "summary": "Reference market tracking dashboard.",
+      "source": "ddd-repos",
+      "priority": 4,
+      "delivery": "reference",
+      "verified_repo": true
+    },
+    {
+      "id": "plexo",
+      "name": "Plexo",
+      "repo": "anmolkapil/plexo",
+      "url": "https://github.com/anmolkapil/plexo",
+      "category": "utilities",
+      "profiles": [
+        "ai-agents"
+      ],
+      "summary": "Download acceleration experiments for large artifacts.",
+      "source": "ddd-repos",
+      "priority": 4,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "stemkit",
+      "name": "Stemkit",
+      "repo": "danielravina/stemkit",
+      "url": "https://github.com/danielravina/stemkit",
+      "category": "media",
+      "profiles": [
+        "marketing"
+      ],
+      "summary": "Audio stem separation experiments; respect licensing.",
+      "source": "ddd-repos",
+      "priority": 4,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "weknora",
+      "name": "WeKnora",
+      "repo": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "category": "rag",
+      "profiles": [
+        "ai-agents",
+        "saas"
+      ],
+      "summary": "Open-source RAG and document knowledge management.",
+      "source": "ddd-repos",
+      "priority": 1,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "unslop",
+      "name": "Unslop",
+      "repo": "heydamir/unslop",
+      "url": "https://github.com/heydamir/unslop",
+      "category": "design",
+      "profiles": [
+        "fullstack",
+        "saas",
+        "marketing"
+      ],
+      "summary": "Audit and improve AI-generated UI; linked independently, not verified as Daily Dev Drops route content.",
+      "source": "independent",
+      "priority": 2,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "anthropic-skills",
+      "name": "Official Agent Skills",
+      "repo": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "category": "skills",
+      "profiles": [
+        "core",
+        "fullstack",
+        "ai-agents"
+      ],
+      "summary": "Official Agent Skills examples and conventions.",
+      "source": "curated",
+      "priority": 1,
+      "delivery": "reference",
+      "verified_repo": true
+    },
+    {
+      "id": "superpowers",
+      "name": "Superpowers",
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "category": "workflow",
+      "profiles": [
+        "core",
+        "fullstack",
+        "game",
+        "ai-agents"
+      ],
+      "summary": "Structured planning, TDD, review and completion skills.",
+      "source": "curated",
+      "priority": 1,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "spec-kit",
+      "name": "Spec Kit",
+      "repo": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "category": "workflow",
+      "profiles": [
+        "core",
+        "fullstack",
+        "saas",
+        "game"
+      ],
+      "summary": "Spec-driven workflow templates and planning aids.",
+      "source": "curated",
+      "priority": 1,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "context7",
+      "name": "Context7",
+      "repo": "upstash/context7",
+      "url": "https://github.com/upstash/context7",
+      "category": "context",
+      "profiles": [
+        "core",
+        "fullstack",
+        "ai-agents"
+      ],
+      "summary": "Fetch current, version-specific documentation for coding agents.",
+      "source": "curated",
+      "priority": 1,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "playwright-mcp",
+      "name": "Playwright MCP",
+      "repo": "microsoft/playwright-mcp",
+      "url": "https://github.com/microsoft/playwright-mcp",
+      "category": "browser",
+      "profiles": [
+        "fullstack",
+        "saas",
+        "game"
+      ],
+      "summary": "Browser automation through MCP for UI verification.",
+      "source": "curated",
+      "priority": 1,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "repomix",
+      "name": "Repomix",
+      "repo": "yamadashy/repomix",
+      "url": "https://github.com/yamadashy/repomix",
+      "category": "context",
+      "profiles": [
+        "core",
+        "ai-agents"
+      ],
+      "summary": "Package repository context into an agent-readable view.",
+      "source": "curated",
+      "priority": 2,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "mcp-servers",
+      "name": "MCP Reference Servers",
+      "repo": "modelcontextprotocol/servers",
+      "url": "https://github.com/modelcontextprotocol/servers",
+      "category": "mcp",
+      "profiles": [
+        "ai-agents",
+        "core"
+      ],
+      "summary": "Reference implementation directory for MCP integrations.",
+      "source": "curated",
+      "priority": 2,
+      "delivery": "reference",
+      "verified_repo": true
+    },
+    {
+      "id": "github-mcp",
+      "name": "GitHub MCP Server",
+      "repo": "github/github-mcp-server",
+      "url": "https://github.com/github/github-mcp-server",
+      "category": "mcp",
+      "profiles": [
+        "ai-agents",
+        "core"
+      ],
+      "summary": "Access GitHub workflows and metadata via MCP with scoped credentials.",
+      "source": "curated",
+      "priority": 2,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "semgrep",
+      "name": "Semgrep",
+      "repo": "semgrep/semgrep",
+      "url": "https://github.com/semgrep/semgrep",
+      "category": "security",
+      "profiles": [
+        "fullstack",
+        "saas",
+        "devops"
+      ],
+      "summary": "Static analysis for common code defects and security patterns.",
+      "source": "curated",
+      "priority": 1,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "trufflehog",
+      "name": "TruffleHog",
+      "repo": "trufflesecurity/trufflehog",
+      "url": "https://github.com/trufflesecurity/trufflehog",
+      "category": "security",
+      "profiles": [
+        "devops",
+        "saas"
+      ],
+      "summary": "Find exposed credentials in code and history.",
+      "source": "curated",
+      "priority": 2,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "trivy",
+      "name": "Trivy",
+      "repo": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "category": "security",
+      "profiles": [
+        "devops",
+        "saas"
+      ],
+      "summary": "Scan dependencies, IaC and container images.",
+      "source": "curated",
+      "priority": 1,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "gitleaks",
+      "name": "Gitleaks",
+      "repo": "gitleaks/gitleaks",
+      "url": "https://github.com/gitleaks/gitleaks",
+      "category": "security",
+      "profiles": [
+        "devops",
+        "core",
+        "saas"
+      ],
+      "summary": "Detect possible hardcoded secrets in repositories.",
+      "source": "curated",
+      "priority": 1,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "wshobson-agents",
+      "name": "Wshobson Agents",
+      "repo": "wshobson/agents",
+      "url": "https://github.com/wshobson/agents",
+      "category": "agents",
+      "profiles": [
+        "ai-agents",
+        "core"
+      ],
+      "summary": "Large collection of task-specific agent examples and skills.",
+      "source": "curated",
+      "priority": 2,
+      "delivery": "reference",
+      "verified_repo": true
+    },
+    {
+      "id": "matt-skills",
+      "name": "Matt Pocock Skills",
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "category": "skills",
+      "profiles": [
+        "core",
+        "fullstack"
+      ],
+      "summary": "Practical reusable AI coding skills.",
+      "source": "curated",
+      "priority": 2,
+      "delivery": "reference",
+      "verified_repo": true
+    },
+    {
+      "id": "vercel-agent-skills",
+      "name": "Vercel Agent Skills",
+      "repo": "vercel-labs/agent-skills",
+      "url": "https://github.com/vercel-labs/agent-skills",
+      "category": "skills",
+      "profiles": [
+        "fullstack",
+        "saas"
+      ],
+      "summary": "Web app and React performance and UX practices.",
+      "source": "curated",
+      "priority": 1,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "browser-use",
+      "name": "browser-use",
+      "repo": "browser-use/browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "category": "browser",
+      "profiles": [
+        "ai-agents"
+      ],
+      "summary": "Agent-driven web automation; use test environments and scoped access.",
+      "source": "curated",
+      "priority": 2,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "n8n",
+      "name": "n8n",
+      "repo": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "category": "automation",
+      "profiles": [
+        "devops",
+        "marketing",
+        "ai-agents"
+      ],
+      "summary": "Visual self-hosted automation orchestration.",
+      "source": "curated",
+      "priority": 1,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "langgraph",
+      "name": "LangGraph",
+      "repo": "langchain-ai/langgraph",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "category": "orchestration",
+      "profiles": [
+        "ai-agents",
+        "saas"
+      ],
+      "summary": "Build explicit stateful agent workflows with recovery checkpoints.",
+      "source": "curated",
+      "priority": 1,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "ollama",
+      "name": "Ollama",
+      "repo": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "category": "llm",
+      "profiles": [
+        "ai-agents",
+        "robotics"
+      ],
+      "summary": "Local LLM server and model management.",
+      "source": "curated",
+      "priority": 1,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "aider",
+      "name": "aider",
+      "repo": "Aider-AI/aider",
+      "url": "https://github.com/Aider-AI/aider",
+      "category": "coding",
+      "profiles": [
+        "core"
+      ],
+      "summary": "Terminal-based AI pair programmer.",
+      "source": "curated",
+      "priority": 2,
+      "delivery": "reference",
+      "verified_repo": true
+    },
+    {
+      "id": "opencode",
+      "name": "OpenCode",
+      "repo": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "category": "coding",
+      "profiles": [
+        "core",
+        "ai-agents"
+      ],
+      "summary": "Open-source terminal coding agent supporting multiple providers.",
+      "source": "curated",
+      "priority": 2,
+      "delivery": "reference",
+      "verified_repo": true
+    },
+    {
+      "id": "cline",
+      "name": "Cline",
+      "repo": "cline/cline",
+      "url": "https://github.com/cline/cline",
+      "category": "coding",
+      "profiles": [
+        "core"
+      ],
+      "summary": "IDE coding agent with tool-use and approval workflow.",
+      "source": "curated",
+      "priority": 2,
+      "delivery": "reference",
+      "verified_repo": true
+    },
+    {
+      "id": "openhands",
+      "name": "OpenHands",
+      "repo": "OpenHands/OpenHands",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "category": "coding",
+      "profiles": [
+        "ai-agents"
+      ],
+      "summary": "Autonomous coding agent runtime; prefer isolated workspaces.",
+      "source": "curated",
+      "priority": 2,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "hermes-agent",
+      "name": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "category": "agents",
+      "profiles": [
+        "ai-agents",
+        "robotics"
+      ],
+      "summary": "General-purpose extensible local/cloud AI agent environment.",
+      "source": "curated",
+      "priority": 1,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "pydantic-ai",
+      "name": "PydanticAI",
+      "repo": "pydantic/pydantic-ai",
+      "url": "https://github.com/pydantic/pydantic-ai",
+      "category": "orchestration",
+      "profiles": [
+        "ai-agents",
+        "saas"
+      ],
+      "summary": "Typed Python agent workflows and structured outputs.",
+      "source": "curated",
+      "priority": 1,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "promptfoo",
+      "name": "promptfoo",
+      "repo": "promptfoo/promptfoo",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "category": "testing",
+      "profiles": [
+        "ai-agents",
+        "saas"
+      ],
+      "summary": "LLM evaluation, test suites and red-team assessments.",
+      "source": "curated",
+      "priority": 1,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "uv",
+      "name": "uv",
+      "repo": "astral-sh/uv",
+      "url": "https://github.com/astral-sh/uv",
+      "category": "devtools",
+      "profiles": [
+        "core",
+        "fullstack",
+        "ai-agents"
+      ],
+      "summary": "Fast Python project and dependency management.",
+      "source": "curated",
+      "priority": 2,
+      "delivery": "manual",
+      "verified_repo": true
+    }
+  ]
+}
