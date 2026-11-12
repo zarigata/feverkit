@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "profiles": {
+    "core": {
+      "description": "Every software project: planning, code review, secret checks and project navigation.",
+      "skills": [
+        "repo-scout",
+        "plan-first",
+        "test-and-review",
+        "security-gate"
+      ],
+      "agents": [
+        "architect",
+        "implementer",
+        "reviewer"
+      ]
+    },
+    "fullstack": {
+      "description": "Node/React/frontend and Python/API app development.",
+      "skills": [
+        "frontend-quality",
+        "api-contracts"
+      ],
+      "agents": [
+        "frontend-engineer",
+        "backend-engineer"
+      ]
+    },
+    "ai-agents": {
+      "description": "Tool-using LLM agents, local models, MCP, memory and evaluations.",
+      "skills": [
+        "agent-orchestration",
+        "local-llm"
+      ],
+      "agents": [
+        "agent-integrator",
+        "llm-infra"
+      ]
+    },
+    "game": {
+      "description": "Godot, Unity, Rust game loops, engine tools and visual verification.",
+      "skills": [
+        "game-testing"
+      ],
+      "agents": [
+        "game-engineer"
+      ]
+    },
+    "devops": {
+      "description": "Containerized applications, deployment, monitoring and incident response.",
+      "skills": [
+        "release-and-ops"
+      ],
+      "agents": [
+        "sre"
+      ]
+    },
+    "saas": {
+      "description": "Production web SaaS, payments, tenants, user safety and privacy.",
+      "skills": [
+        "saas-production"
+      ],
+      "agents": [
+        "product-security"
+      ]
+    },
+    "robotics": {
+      "description": "Embedded systems, MCU firmware, motors, sensors and hardware-in-loop tests.",
+      "skills": [
+        "robotics-safety"
+      ],
+      "agents": [
+        "robotics-engineer"
+      ]
+    },
+    "marketing": {
+      "description": "Product launch and developer marketing.",
+      "skills": [
+        "launch-and-content"
+      ],
+      "agents": [
+        "growth-engineer"
+      ]
+    },
+    "career": {
+      "description": "Job-search research and application quality.",
+      "skills": [
+        "application-review"
+      ],
+      "agents": [
+        "career-researcher"
+      ]
+    }
+  }
+}
