@@ -13,9 +13,9 @@ Research inspiration: [Daily Dev Drops](https://devdailydrops.pages.dev/) by [@h
 
 When this repository has been published, give Claude Code its GitHub URL and this prompt:
 
-> Read the entire FeverKit repository at `https://github.com/OWNER/feverkit` starting with `START_HERE.md`. Inspect **my current project** and select only relevant FeverKit profiles. First produce a plan; then, if I approve local file writes, install the appropriate project-scoped Markdown skills and agents. Show me any external repositories and their security/compatibility implications; never run upstream installers, change my global environment, or deploy without my approval. Run the relevant tests and report what really happened.
+> Read the entire FeverKit repository at `https://github.com/zarigata/feverkit` starting with `START_HERE.md`. Inspect **my current project** and select only relevant FeverKit profiles. First produce a plan; then, if I approve local file writes, install the appropriate project-scoped Markdown skills and agents. Show me any external repositories and their security/compatibility implications; never run upstream installers, change my global environment, or deploy without my approval. Run the relevant tests and report what really happened.
 
-Replace `OWNER` with your GitHub user or organization. **No GitHub repository is created by this package itself.**
+**Published:** [github.com/zarigata/feverkit](https://github.com/zarigata/feverkit). The repository is public; external tools require independent review and explicit approval.
 
 If Claude Code can read your local repository directly, the prompts in `START_HERE.md` work without network access.
 
@@ -23,7 +23,7 @@ If Claude Code can read your local repository directly, the prompts in `START_HE
 
 ```bash
 # After publishing this repository:
-git clone https://github.com/OWNER/feverkit.git
+git clone https://github.com/zarigata/feverkit.git
 cd feverkit
 python3 tools/feverkit.py validate
 python3 tools/feverkit.py doctor
