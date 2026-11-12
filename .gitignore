@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.log
+.env
+.env.*
+!.env.example
+.feverkit/
+.feverkit-plan.json
+.DS_Store
