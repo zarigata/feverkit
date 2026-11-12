@@ -16,11 +16,11 @@ Or on your own authenticated computer with GitHub CLI:
 ```bash
 gh auth status
 cd FeverKit
-# replace OWNER with your actual username or organization
+# Publishing is already complete at zarigata/feverkit; these steps are for forks or mirrors
 git init -b main
 git add .
 git commit -m "Initial FeverKit developer arsenal"
-gh repo create OWNER/feverkit --public --source=. --remote=origin --push
+gh repo create zarigata/feverkit --public --source=. --remote=origin --push
 ```
 
 If you used the web UI to create the empty repo, do this instead:
@@ -30,7 +30,7 @@ cd FeverKit
 git init -b main
 git add .
 git commit -m "Initial FeverKit developer arsenal"
-git remote add origin https://github.com/OWNER/feverkit.git
+git remote add origin https://github.com/zarigata/feverkit.git
 git push -u origin main
 ```
 
