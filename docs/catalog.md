@@ -51,6 +51,12 @@ Source tags: `ddd-repos` = Daily Dev Drops `/repos`; `ddd-plugins` = `/plugins`;
 | **Stemkit** | Audio stem separation experiments; respect licensing. | marketing | `ddd-repos` | [GitHub](https://github.com/danielravina/stemkit) |
 | **Plexo** | Download acceleration experiments for large artifacts. | ai-agents | `ddd-repos` | [GitHub](https://github.com/anmolkapil/plexo) |
 
+## External security references
+
+- [20 pen-test-level attacks your vibecoded app was never checked for](https://www.murphmaxxing.com/vault/20-pen-test-attacks-vibecoded-app) by Murphmaxxing. A pre-release code and configuration review for AI-built apps, covering identity, access controls, and infrastructure settings. Relevant to the `fullstack`, `saas`, and `devops` profiles. Use it to identify which controls apply and what to fix. See the [security guide](security.md#pre-release-security-review) for how to use external references.
+
+These are reading references, not installable tools. FeverKit does not import their prompts or run their checks.
+
 ## Profiles
 
 | Profile | Included bundled skills | Bundled specialist agents |
