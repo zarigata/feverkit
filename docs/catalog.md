@@ -1,4 +1,4 @@
-# FeverKit catalog — 44 verified GitHub repositories
+# FeverKit catalog — 54 verified GitHub repositories
 
 Source tags: `ddd-repos` = Daily Dev Drops `/repos`; `ddd-plugins` = `/plugins`; `independent` = relevant candidate *not* confirmed in Daily Dev Drops route; `curated` = independently chosen for FeverKit.
 
@@ -74,3 +74,18 @@ These are reading references, not installable tools. FeverKit does not import th
 ## Source caveat
 
 The source inventory is preserved in [Daily Dev Drops inventory](DAILY_DEV_DROPS_INVENTORY.md). This catalog does **not** pretend the body of `/launch` or `/unslop` was read. The independent `heydamir/unslop` GitHub project is not proof of what is on the Daily Dev Drops `/unslop` page.
+
+## Video marketing additions (links checked 2026-11-27)
+
+| Tool | Purpose | Profiles | Provenance | Repository |
+|---|---|---|---|---|
+| **Remotion** | Programmatic React video rendering; review commercial license. | marketing | `curated` | [GitHub](https://github.com/remotion-dev/remotion) |
+| **HyperFrames** | HTML-based agent-driven video creation and editing. | marketing | `curated` | [GitHub](https://github.com/heygen-com/hyperframes) |
+| **Remotion Shorts Skill** | Vertical kinetic typography and local short-video rendering; publishing opt-in. | marketing | `curated` | [GitHub](https://github.com/social-media-skills/remotion-shorts-skill) |
+| **Claude Content Kit** | Script-based social clips and editing of provided footage. | marketing | `curated` | [GitHub](https://github.com/bendemartin97/claude-content-kit) |
+| **MoneyPrinterTurbo** | Topic-to-video pipeline; review media, voice and model provider terms. | marketing | `curated` | [GitHub](https://github.com/harry0703/MoneyPrinterTurbo) |
+| **ComfyUI** | Node-based diffusion workflow and local inference API; audit custom nodes. | marketing | `curated` | [GitHub](https://github.com/Comfy-Org/ComfyUI) |
+| **LTX-Video** | Optional generative B-roll; check model license and GPU compatibility. | marketing | `curated` | [GitHub](https://github.com/Lightricks/LTX-Video) |
+| **faster-whisper** | Local transcription and subtitle timing. | marketing | `curated` | [GitHub](https://github.com/SYSTRAN/faster-whisper) |
+| **FFmpeg** | Video assembly, encoding, audio mastering and ffprobe QC; review build licenses. | marketing | `curated` | [GitHub](https://github.com/FFmpeg/FFmpeg) |
+| **Playwright** | Capture authentic product workflows using approved test accounts. | marketing | `curated` | [GitHub](https://github.com/microsoft/playwright) |
