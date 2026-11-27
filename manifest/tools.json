@@ -856,6 +856,22 @@
       "priority": 2,
       "delivery": "manual",
       "verified_repo": true
+    },
+    {
+      "id": "opengame",
+      "name": "OpenGame",
+      "repo": "nexu-io/opengame",
+      "url": "https://github.com/nexu-io/opengame",
+      "category": "game",
+      "profiles": [
+        "game",
+        "ai-agents"
+      ],
+      "summary": "Local agent-assisted HTML5/Three.js game studio, design skills, optional stdio MCP, simulation and playtesting; preserve existing engines.",
+      "source": "curated",
+      "priority": 2,
+      "delivery": "manual",
+      "verified_repo": true
     }
   ]
 }

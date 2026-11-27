@@ -4,7 +4,7 @@
 
 > **From one repository URL to a tailored AI coding environment.** FeverKit helps Claude Code, Codex, OpenCode, and other coding agents *plan* what a project needs and install a small set of portable, local Markdown skills. Heavy third-party tools remain opt-in and independently reviewed.
 
-**54 reviewed GitHub repository destinations · 9 profiles · 16 original skills · 13 original Claude subagents · Python standard library only.**
+**55 reviewed GitHub repository destinations · 9 profiles · 17 original skills · 13 original Claude subagents · Python standard library only.**
 
 Created by the FeverDream ecosystem · [feverdream.dev](https://feverdream.dev/)  
 Research inspiration: [Daily Dev Drops](https://devdailydrops.pages.dev/) by [@hayderdotdev](https://www.instagram.com/hayderdotdev/). This is an **independent** project, not endorsed by those upstream maintainers.
@@ -94,7 +94,7 @@ manifest/
   profiles.json                  Skills and agents selected per profile
   site-routes.json               Daily Dev Drops route status with caveats
 .claude/agents/                 13 original specialist subagents
-.claude/skills/                 16 original reusable project skills
+.claude/skills/                 17 original reusable project skills
  tools/feverkit.py               Stdlib-only CLI: plan/apply/catalog/vendor
  tools/crawl_daily_dev_drops.py  Optional web-browser research crawler
  docs/
@@ -119,6 +119,8 @@ manifest/
 
 - **Video marketing:** [Remotion](https://github.com/remotion-dev/remotion), [HyperFrames](https://github.com/heygen-com/hyperframes), [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo), [ComfyUI](https://github.com/Comfy-Org/ComfyUI), [FFmpeg](https://github.com/FFmpeg/FFmpeg). See the [social video recipe](docs/recipes/social-video.md). The VisualizeMy-inspired skill is original guidance; no website API is assumed.
 
+- **Game development:** [OpenGame](https://github.com/nexu-io/opengame) — optional local browser-game prototyping, agent skills and MCP playtesting. See the [OpenGame recipe](docs/recipes/opengame.md); it is not a replacement for native game engines.
+
 See [the full catalog](docs/catalog.md), [recipes](docs/recipes/), [trust model](docs/security.md), and [the original Daily Dev Drops research](docs/DAILY_DEV_DROPS_INVENTORY.md).
 
 ## Scope and limitations
@@ -129,4 +131,4 @@ See [the full catalog](docs/catalog.md), [recipes](docs/recipes/), [trust model]
 - The CLI cannot infer your stack perfectly, safely automate every third-party installer, grant cloud credentials, or guarantee agent compliance. Review the plan.
 - **License:** MIT applies to the original FeverKit materials and CLI, **not** to linked third-party repositories.
 
-Maintained as a practical engineering starting point, not as a promise that 54 tools must all be installed.
+Maintained as a practical engineering starting point, not as a promise that 55 tools must all be installed.

@@ -38,9 +38,10 @@
       ]
     },
     "game": {
-      "description": "Godot, Unity, Rust game loops, engine tools and visual verification.",
+      "description": "Godot, Unity, Rust and browser game development, engine tools, OpenGame prototyping and visual verification.",
       "skills": [
-        "game-testing"
+        "game-testing",
+        "opengame-development"
       ],
       "agents": [
         "game-engineer"
