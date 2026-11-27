@@ -706,6 +706,156 @@
       "priority": 2,
       "delivery": "manual",
       "verified_repo": true
+    },
+    {
+      "id": "remotion",
+      "name": "Remotion",
+      "repo": "remotion-dev/remotion",
+      "url": "https://github.com/remotion-dev/remotion",
+      "category": "media",
+      "profiles": [
+        "marketing"
+      ],
+      "summary": "Programmatic React video rendering; review commercial license.",
+      "source": "curated",
+      "priority": 1,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "hyperframes",
+      "name": "HyperFrames",
+      "repo": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "category": "media",
+      "profiles": [
+        "marketing"
+      ],
+      "summary": "HTML-based agent-driven video creation and editing.",
+      "source": "curated",
+      "priority": 1,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "remotion-shorts-skill",
+      "name": "Remotion Shorts Skill",
+      "repo": "social-media-skills/remotion-shorts-skill",
+      "url": "https://github.com/social-media-skills/remotion-shorts-skill",
+      "category": "media",
+      "profiles": [
+        "marketing"
+      ],
+      "summary": "Vertical kinetic typography and local short-video rendering; publishing opt-in.",
+      "source": "curated",
+      "priority": 2,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "claude-content-kit",
+      "name": "Claude Content Kit",
+      "repo": "bendemartin97/claude-content-kit",
+      "url": "https://github.com/bendemartin97/claude-content-kit",
+      "category": "media",
+      "profiles": [
+        "marketing"
+      ],
+      "summary": "Script-based social clips and editing of provided footage.",
+      "source": "curated",
+      "priority": 2,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "moneyprinterturbo",
+      "name": "MoneyPrinterTurbo",
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "category": "media",
+      "profiles": [
+        "marketing"
+      ],
+      "summary": "Topic-to-video pipeline; review media, voice and model provider terms.",
+      "source": "curated",
+      "priority": 2,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "comfyui",
+      "name": "ComfyUI",
+      "repo": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "category": "media",
+      "profiles": [
+        "marketing"
+      ],
+      "summary": "Node-based diffusion workflow and local inference API; audit custom nodes.",
+      "source": "curated",
+      "priority": 2,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "ltx-video",
+      "name": "LTX-Video",
+      "repo": "Lightricks/LTX-Video",
+      "url": "https://github.com/Lightricks/LTX-Video",
+      "category": "media",
+      "profiles": [
+        "marketing"
+      ],
+      "summary": "Optional generative B-roll; check model license and GPU compatibility.",
+      "source": "curated",
+      "priority": 3,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "faster-whisper",
+      "name": "faster-whisper",
+      "repo": "SYSTRAN/faster-whisper",
+      "url": "https://github.com/SYSTRAN/faster-whisper",
+      "category": "media",
+      "profiles": [
+        "marketing"
+      ],
+      "summary": "Local transcription and subtitle timing.",
+      "source": "curated",
+      "priority": 1,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "ffmpeg",
+      "name": "FFmpeg",
+      "repo": "FFmpeg/FFmpeg",
+      "url": "https://github.com/FFmpeg/FFmpeg",
+      "category": "media",
+      "profiles": [
+        "marketing"
+      ],
+      "summary": "Video assembly, encoding, audio mastering and ffprobe QC; review build licenses.",
+      "source": "curated",
+      "priority": 1,
+      "delivery": "manual",
+      "verified_repo": true
+    },
+    {
+      "id": "playwright",
+      "name": "Playwright",
+      "repo": "microsoft/playwright",
+      "url": "https://github.com/microsoft/playwright",
+      "category": "media",
+      "profiles": [
+        "marketing"
+      ],
+      "summary": "Capture authentic product workflows using approved test accounts.",
+      "source": "curated",
+      "priority": 2,
+      "delivery": "manual",
+      "verified_repo": true
     }
   ]
 }
