@@ -74,9 +74,11 @@
       ]
     },
     "marketing": {
-      "description": "Product launch and developer marketing.",
+      "description": "Product launches, developer marketing, animated explainers and short-form video production.",
       "skills": [
-        "launch-and-content"
+        "launch-and-content",
+        "visualizemy-motion",
+        "social-video-studio"
       ],
       "agents": [
         "growth-engineer"

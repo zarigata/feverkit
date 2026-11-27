@@ -4,7 +4,7 @@
 
 > **From one repository URL to a tailored AI coding environment.** FeverKit helps Claude Code, Codex, OpenCode, and other coding agents *plan* what a project needs and install a small set of portable, local Markdown skills. Heavy third-party tools remain opt-in and independently reviewed.
 
-**44 reviewed GitHub repository destinations · 9 profiles · 14 original skills · 13 original Claude subagents · Python standard library only.**
+**54 reviewed GitHub repository destinations · 9 profiles · 16 original skills · 13 original Claude subagents · Python standard library only.**
 
 Created by the FeverDream ecosystem · [feverdream.dev](https://feverdream.dev/)  
 Research inspiration: [Daily Dev Drops](https://devdailydrops.pages.dev/) by [@hayderdotdev](https://www.instagram.com/hayderdotdev/). This is an **independent** project, not endorsed by those upstream maintainers.
@@ -49,7 +49,7 @@ python3 tools/feverkit.py apply --project /path/to/my-app --plan .feverkit-plan.
 | `devops` | Docker, operations | Deploy safety, monitoring, vulnerability scans |
 | `saas` | Multi-tenant SaaS | Billing, tenant isolation, auth, privacy |
 | `robotics` | ESP32, Arduino, motion control | Hardware safety, watchdogs, HIL testing |
-| `marketing` | Product launches | Docs, developer relations, short-form video |
+| `marketing` | Product launches and social video | Motion graphics, Reels, TikTok, Shorts, captions, product demos |
 | `career` | Developer job searches | Posting verification, truthful CV tailoring |
 
 For a project-aware starter plan use `--profile auto`; detection is intentionally conservative. For a deliberate stack, specify multiple: `--profile fullstack,ai-agents,saas` (core is always included). `--profile all` is for exploration, not a recommended routine installation.
@@ -94,7 +94,7 @@ manifest/
   profiles.json                  Skills and agents selected per profile
   site-routes.json               Daily Dev Drops route status with caveats
 .claude/agents/                 13 original specialist subagents
-.claude/skills/                 14 original reusable project skills
+.claude/skills/                 16 original reusable project skills
  tools/feverkit.py               Stdlib-only CLI: plan/apply/catalog/vendor
  tools/crawl_daily_dev_drops.py  Optional web-browser research crawler
  docs/
@@ -117,14 +117,16 @@ manifest/
 - **Knowledge & automation:** [WeKnora](https://github.com/Tencent/WeKnora), [n8n](https://github.com/n8n-io/n8n), [GitHub MCP](https://github.com/github/github-mcp-server)
 - **Interface polish:** [Unslop](https://github.com/heydamir/unslop), [Vercel Agent Skills](https://github.com/vercel-labs/agent-skills)
 
+- **Video marketing:** [Remotion](https://github.com/remotion-dev/remotion), [HyperFrames](https://github.com/heygen-com/hyperframes), [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo), [ComfyUI](https://github.com/Comfy-Org/ComfyUI), [FFmpeg](https://github.com/FFmpeg/FFmpeg). See the [social video recipe](docs/recipes/social-video.md). The VisualizeMy-inspired skill is original guidance; no website API is assumed.
+
 See [the full catalog](docs/catalog.md), [recipes](docs/recipes/), [trust model](docs/security.md), and [the original Daily Dev Drops research](docs/DAILY_DEV_DROPS_INVENTORY.md).
 
 ## Scope and limitations
 
 - This repository indexes third-party projects **by reference**; it does not copy or bundle their code, licenses, or tools.
 - Daily Dev Drops `/launch`, `/unslop`, and several guide bodies could not be independently retrieved. Their presence in the route inventory is **not** evidence of their contents. No unknown pages are fabricated.
-- Repo links were verified to resolve on 2026-11-12. APIs, versions, licensing, compatibility and upstream install commands can change; audit before use.
+- Original repo links were checked on 2026-11-12; additional video links were checked on 2026-11-27. Link checks are not runtime or security audits. APIs, versions, licensing, compatibility and upstream install commands can change; audit before use.
 - The CLI cannot infer your stack perfectly, safely automate every third-party installer, grant cloud credentials, or guarantee agent compliance. Review the plan.
 - **License:** MIT applies to the original FeverKit materials and CLI, **not** to linked third-party repositories.
 
-Maintained as a practical engineering starting point, not as a promise that 44 tools must all be installed.
+Maintained as a practical engineering starting point, not as a promise that 54 tools must all be installed.
