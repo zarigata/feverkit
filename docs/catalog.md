@@ -1,4 +1,4 @@
-# FeverKit catalog — 54 verified GitHub repositories
+# FeverKit catalog — 55 verified GitHub repositories
 
 Source tags: `ddd-repos` = Daily Dev Drops `/repos`; `ddd-plugins` = `/plugins`; `independent` = relevant candidate *not* confirmed in Daily Dev Drops route; `curated` = independently chosen for FeverKit.
 
@@ -89,3 +89,9 @@ The source inventory is preserved in [Daily Dev Drops inventory](DAILY_DEV_DROPS
 | **faster-whisper** | Local transcription and subtitle timing. | marketing | `curated` | [GitHub](https://github.com/SYSTRAN/faster-whisper) |
 | **FFmpeg** | Video assembly, encoding, audio mastering and ffprobe QC; review build licenses. | marketing | `curated` | [GitHub](https://github.com/FFmpeg/FFmpeg) |
 | **Playwright** | Capture authentic product workflows using approved test accounts. | marketing | `curated` | [GitHub](https://github.com/microsoft/playwright) |
+
+## Game-development addition (link checked 2026-11-27)
+
+| Tool | Purpose | Profiles | Provenance | Repository |
+|---|---|---|---|---|
+| **OpenGame** | Local agent-assisted HTML5/Three.js game studio, design skills, optional stdio MCP, simulation and playtesting; preserve existing engines. | game, ai-agents | `curated` | [GitHub](https://github.com/nexu-io/opengame) |
